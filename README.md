@@ -1,7 +1,6 @@
 # 📚 Bookstore Project (Learning Go)
-
-This project is a **Bookstore** I'm currently working on while learning the **Go programming language (Golang)** with Tech4Dev.  
-It serves as a hands-on way to explore Go fundamentals such as variables, packages, and testing functions.
+This project demonstrates a practical implementation of a bookstore inventory system using Go with Tevh4Dev. 
+It transitions from managing individual books to handling collections of books using slices, representing a real-world inventory management scenario.
 
 
 ## 🧱 Project Structure
