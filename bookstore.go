@@ -24,7 +24,6 @@ func Buy(books []Book, title string) []Book {
 	for i, b := range books {
 		if b.Title == title {
 			books[i].Copies--
-			return books
 		}
 	}
 	return books

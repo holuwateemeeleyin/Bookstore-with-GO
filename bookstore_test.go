@@ -28,7 +28,6 @@ func TestBuy(t *testing.T) {
 	for _, b := range result {
 		if b.Title == "Splinter Cell" {
 			got = b.Copies
-			break
 		}
 	}
 	if want != got {
@@ -53,7 +52,6 @@ func TestStock(t *testing.T) {
 	for _, b := range result {
 		if b.Title == "Splinter Cell" {
 			got = b.Copies
-			break
 		}
 	}
 
