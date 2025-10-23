@@ -42,3 +42,13 @@ func Stock(books []Book, title string) []Book {
 	//return slice if we don't find any book to increment
 	return books
 }
+
+// Get All books
+func GetAllBooks(books []Book) []Book {
+	return books
+}
+
+// Add new book
+func AddBook(books []Book, book Book) []Book {
+	return append(books, book)
+}
